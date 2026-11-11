@@ -1,0 +1,22 @@
+# dependencies
+node_modules
+
+# next.js
+.next
+out
+build
+next-env.d.ts
+*.tsbuildinfo
+
+# secrets — never commit real credentials
+.env
+.env.*
+!.env.example
+
+# deployment / tooling
+.vercel
+.scratch
+
+# misc
+.DS_Store
+npm-debug.log*
